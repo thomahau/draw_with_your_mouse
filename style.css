@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.canvas {
+  width: 560px;
+  height: 560px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.default-block {
+  width: 35px;
+  height: 35px;
+  background-color: beige;
+}
+
+.block {
+  background-color: beige;
+}
+
+.trail {
+  background-color: black;
+}
+
+button {
+  padding: 10px 30px;
+  display: block;
+  margin: 30px auto;
+  background-color: lightblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
